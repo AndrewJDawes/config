@@ -1,21 +1,17 @@
 # config
 ## Use
 ### Getting started
-Define the `config` alias in your current shell session
-```
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-```
 Clone the remote repo as a bare repo into a subdirectory of your local home repo
 ```
 git clone --bare git@github.com:AndrewJDawes/config.git $HOME/.cfg
 ```
-Checkout the repo using the `config` alias you defined earlier
+Run the init script to set up githooks and checkout the repo
 ```
-config checkout
+.cfg_scripts/init.sh
 ```
 This might fail because by checking out you would be overwriting existing dotfiles in your home directory
 - Back these up and remove them
-- Then, run `config checkout` again
+- Then, try running the script again
 ### Add new files to repo
 Check to see whether your .gitignore allows this file to be added to the git index:
 ```
