@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-echo "running post-merge hook... "
 if [ -e "$HOME/.cfg_scripts/vscode/install_extensions.sh" ]; then
     "$HOME/.cfg_scripts/vscode/install_extensions.sh"
 fi
