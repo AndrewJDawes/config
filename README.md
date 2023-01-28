@@ -12,6 +12,11 @@ Run the init script to set up githooks and checkout the repo
 This might fail because by checking out you would be overwriting existing dotfiles in your home directory
 - Back these up and remove them
 - Then, try running the script again
+
+Open a new terminal window to begin using the `config` alias, or source your rc file to define it:
+```
+source ~/.bashrc
+```
 ### Add new files to repo
 Check to see whether your .gitignore allows this file to be added to the git index:
 ```
