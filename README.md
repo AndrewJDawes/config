@@ -1,7 +1,7 @@
 # config
 ## Use
 ### Getting started
-Define the "config" alias (can just be for the current shell session) so you can use it to checkout the bare repo later
+Define the `config` alias (can just be for the current shell session) so you can use it to checkout the bare repo later
 ```
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 ```
