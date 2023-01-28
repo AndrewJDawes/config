@@ -1,5 +1,21 @@
 # config
 ## Use
+### Getting started
+Define the "config" alias (can just be for the current shell session) so you can use it to checkout the bare repo later
+```
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+```
+Clone the remote repo as a bare repo into a subdirectory of your local home repo
+```
+git clone --bare git@github.com:AndrewJDawes/config.git $HOME/.cfg
+```
+Checkout the repo (using the "config" alias you defined earlier)
+```
+config checkout
+```
+This might fail because by checking out you would be overwriting existing dotfiles in your home directory
+- Back these up and remove them
+- Then, run `config checkout` again
 ### Add new files to repo
 Check to see whether your .gitignore allows this file to be added to the git index:
 ```
@@ -17,22 +33,6 @@ Push your changes to the remote
 ```
 config push
 ```
-### Cloning to another machine
-Define the "config" alias (can just be for the current shell session) so you can use it to checkout the bare repo later
-```
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-```
-Clone the remote repo as a bare repo into a subdirectory of your local home repo
-```
-git clone --bare git@github.com:AndrewJDawes/config.git $HOME/.cfg
-```
-Checkout the repo (using the "config" alias you defined earlier)
-```
-config checkout
-```
-This might fail because by checking out you would be overwriting existing dotfiles in your home directory
-- Back these up and remove them
-- Then, run `config checkout` again
 ## Create your own Dotfiles repo
 ### Tutorial
 https://www.atlassian.com/git/tutorials/dotfiles
