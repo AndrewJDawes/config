@@ -1,0 +1,39 @@
+# By default, ignore everything except this .gitignore
+/**
+!/.gitignore
+# Bare repo
+/.cfg
+# VSCode - MacOS
+!/Library/
+/Library/**
+!/Library/Application Support/
+/Library/Application Support/**
+!/Library/Application Support/Code/
+/Library/Application Support/Code/**
+!/Library/Application Support/Code/User/
+/Library/Application Support/Code/User/**
+!/Library/Application Support/Code/User/settings.json
+# VSCode - Linux
+!/.config/
+/.config/**
+!/.config/Code/
+/.config/Code/**
+!/.config/Code/User/
+/.config/Code/User/**
+!/.config/Code/User/settings.json
+# bash
+!/.bash_profile
+!/.bash_login
+!/.bash_logout
+!/.profile
+!/.bashrc
+# zsh
+!/.zshenv
+!/.zprofile
+!/.zshrc
+!/.zlogin
+!/.zlogout
+# vim
+!/.vimrc
+# README
+!/.README.md
