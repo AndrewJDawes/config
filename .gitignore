@@ -3,6 +3,7 @@
 !/.gitignore
 # Bare repo
 /.cfg
+!/README.md
 # VSCode - MacOS
 !/Library/
 /Library/**
