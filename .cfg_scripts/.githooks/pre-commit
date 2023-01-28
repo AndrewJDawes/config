@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+echo "running pre-commit hook..."
+if [ -e "$HOME/.cfg_scripts/vscode/dump_extensions.sh" ]; then
+    "$HOME/.cfg_scripts/vscode/dump_extensions.sh"
+fi
