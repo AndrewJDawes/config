@@ -1,7 +1,7 @@
 # config
 ## Use
 ### Getting started
-Define the `config` alias (can just be for the current shell session) so you can use it to checkout the bare repo later
+Define the `config` alias is your current shell session
 ```
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 ```
@@ -9,7 +9,7 @@ Clone the remote repo as a bare repo into a subdirectory of your local home repo
 ```
 git clone --bare git@github.com:AndrewJDawes/config.git $HOME/.cfg
 ```
-Checkout the repo (using the "config" alias you defined earlier)
+Checkout the repo using the `config` alias you defined earlier
 ```
 config checkout
 ```
