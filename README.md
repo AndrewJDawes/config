@@ -1,7 +1,7 @@
 # config
 ## Use
 ### Getting started
-Define the `config` alias is your current shell session
+Define the `config` alias in your current shell session
 ```
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 ```
