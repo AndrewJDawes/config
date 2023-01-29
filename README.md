@@ -8,15 +8,15 @@ git clone --bare git@github.com:AndrewJDawes/config.git $HOME/.cfg
 Copy/paste the following init script to set up githooks and checkout the repo
 ```
 #!/usr/bin/env bash
-function config() {
-    git --git-dir=$HOME/.cfg --work-tree=$HOME "$@" >/dev/null 2>&1
+function config_init() {
+    git --git-dir=$HOME/.cfg --work-tree=$HOME "$@" >/dev/null config core.hooksPath "$HOME/.cfg_scripts/.githooks"
+    git --git-dir=$HOME/.cfg --work-tree=$HOME "$@" >/dev/null checkout
 }
-config config core.hooksPath "$HOME/.cfg_scripts/.githooks"
-config checkout
+config_init
 ```
 This might fail because by checking out you would be overwriting existing dotfiles in your home directory
 - Back these up and remove them
-- Then, try running `config checkout` again
+- Then, try running `config_init` again
 
 Open a new terminal window to begin using the `config` alias, or source your rc file to define it:
 ```
