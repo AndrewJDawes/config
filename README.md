@@ -5,13 +5,18 @@ Clone the remote repo as a bare repo into a subdirectory of your home directory
 ```
 git clone --bare git@github.com:AndrewJDawes/config.git $HOME/.cfg
 ```
-Run the init script to set up githooks and checkout the repo
+Copy/paste the following init script to set up githooks and checkout the repo
 ```
-$HOME/.cfg_scripts/init.sh
+#!/usr/bin/env bash
+function config() {
+    git --git-dir=$HOME/.cfg --work-tree=$HOME "$@" >/dev/null 2>&1
+}
+config config core.hooksPath "$HOME/.cfg_scripts/.githooks"
+config checkout
 ```
 This might fail because by checking out you would be overwriting existing dotfiles in your home directory
 - Back these up and remove them
-- Then, try running the script again
+- Then, try running `config checkout` again
 
 Open a new terminal window to begin using the `config` alias, or source your rc file to define it:
 ```
