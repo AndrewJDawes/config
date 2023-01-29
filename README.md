@@ -1,13 +1,13 @@
 # config
 ## Use
 ### Getting started
-Clone the remote repo as a bare repo into a subdirectory of your local home repo
+Clone the remote repo as a bare repo into a subdirectory of your home directory
 ```
 git clone --bare git@github.com:AndrewJDawes/config.git $HOME/.cfg
 ```
 Run the init script to set up githooks and checkout the repo
 ```
-.cfg_scripts/init.sh
+$HOME/.cfg_scripts/init.sh
 ```
 This might fail because by checking out you would be overwriting existing dotfiles in your home directory
 - Back these up and remove them
