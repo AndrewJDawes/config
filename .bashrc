@@ -13,24 +13,20 @@ if command -v pyenv 1>/dev/null 2>&1; then
 #      eval "$(pyenv init -)"
 #      eval "$(pyenv virtualenv-init -)"
 fi
-
 # Init nvm if it has been installed
 if [ -d "$HOME/.nvm" ]; then
     export NVM_DIR="$HOME/.nvm"
     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
     [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 fi
-
 # Add composer to path if exists
 if [ -d "$HOME/.composer/vendor/bin" ]; then
     export PATH="$HOME/.composer/vendor/bin:$PATH"
 fi
-
 # Add ~/.local/bin to path if exists
 if [ -d "$HOME/.local/bin" ]; then
     export PATH="$HOME/.local/bin:$PATH"
 fi
-
 # Add Magento Cloud CLI to path if exists
 if [ -d "$HOME/"'.magento-cloud/bin' ]; then
     export PATH="$HOME/"'.magento-cloud/bin':"$PATH"
@@ -38,13 +34,16 @@ if [ -d "$HOME/"'.magento-cloud/bin' ]; then
         . "$HOME/"'.magento-cloud/shell-config.rc';
     fi 
 fi
-
 # Add XAMPP executables to path if exists
 if [ -d '/Applications/XAMPP/bin' ]; then
     export PATH="/Applications/XAMPP/bin":"$PATH";
 fi
-
 # Add node_modules globals to path if exists
 if [ -d "$HOME/node_modules/.bin" ]; then
     export PATH="$HOME/node_modules/.bin":"$PATH";
+fi
+# VSCode
+if [ -e "/Library/Application Support/Code/User/settings.json" ] && [ ! -L "/Library/Application Support/Code/User/settings.json" ]; then
+    mv "/Library/Application Support/Code/User/settings.json" "/Library/Application Support/Code/User/settings.json.bak";
+    ln -sf "/Library/Application Support/Code/User/settings.json" "$HOME/.config/Code/User/settings.json";
 fi
