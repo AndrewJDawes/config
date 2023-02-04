@@ -33,7 +33,12 @@ config commit -m "Added .vimrc"
 ```
 Push your changes to the remote
 ```
-config push
+config push -u origin main
+```
+## VSCode Extensions
+### Force install VSCode extensions from `config` repo
+```
+/bin/bash "$HOME/.cfg_scripts/vscode/install_extensions.sh"
 ```
 ## Create your own Dotfiles repo
 ### Tutorial
