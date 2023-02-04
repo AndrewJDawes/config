@@ -1,5 +1,9 @@
 # Alias for managing dotfiles config
 alias config='git --git-dir=$HOME/.cfg --work-tree=$HOME'
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
 # Homebrew
 if [ -e /opt/homebrew/bin/brew ]; then
     eval $(/opt/homebrew/bin/brew shellenv)
@@ -34,9 +38,13 @@ if [ -d "$HOME/"'.magento-cloud/bin' ]; then
         . "$HOME/"'.magento-cloud/shell-config.rc';
     fi 
 fi
-# Add XAMPP executables to path if exists
+# Add macOS XAMPP executables to path if exist
 if [ -d '/Applications/XAMPP/bin' ]; then
     export PATH="/Applications/XAMPP/bin":"$PATH";
+fi
+# Add Linux XAMPP executables to path if exist
+if [ -d '/opt/lampp/bin' ]; then
+   export PATH="/opt/lampp/bin":"$PATH";
 fi
 # Add node_modules globals to path if exists
 if [ -d "$HOME/node_modules/.bin" ]; then
@@ -47,3 +55,8 @@ if [ -e "/Library/Application Support/Code/User/settings.json" ] && [ ! -L "/Lib
     mv "/Library/Application Support/Code/User/settings.json" "/Library/Application Support/Code/User/settings.json.bak";
     ln -sf "/Library/Application Support/Code/User/settings.json" "$HOME/.config/Code/User/settings.json";
 fi
+# Add WebFX helper executables if exist
+if [ -d "$HOME/.cmp/aliases" ]; then
+   source "$HOME/.cmp/aliases";
+fi
+
