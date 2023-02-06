@@ -9,7 +9,7 @@ set encoding=utf-8 " Used when reading a file
 " set shellcmdflag=-ic  "Run any shell commands in interactive mode so .bashrc is sourced
 
 " PATHOGEN
-execute pathogen#infect()
+" execute pathogen#infect()
 
 " FILETYPES
 filetype on " Recognize file types.
