@@ -17,5 +17,8 @@
   "[sql]": {
     "editor.defaultFormatter": "ms-mssql.mssql"
   },
-  "prettier.tabWidth": 4
+  "prettier.tabWidth": 4,
+  "[yaml]": {
+    "editor.autoIndent": "advanced",
+  }
 }
