@@ -4,7 +4,7 @@
   "git.autofetch": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
-  "editor.formatOnPaste": true,
+  "editor.formatOnPaste": false,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -20,5 +20,6 @@
   "prettier.tabWidth": 4,
   "[yaml]": {
     "editor.autoIndent": "advanced",
-  }
+  },
+  "redhat.telemetry.enabled": false
 }
