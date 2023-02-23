@@ -1,3 +1,4 @@
+export CONFIG_PROFILE_SOURCED=1
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
     export PATH="$HOME/bin:$PATH"
@@ -9,6 +10,10 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 # Symlink to current NVM version
 export NVM_SYMLINK_CURRENT=true
+
+if [ -d "$HOME/.nvm" ]; then
+    export NVM_DIR="$HOME/.nvm"
+fi
 # Add Homebrew PHPs as option
 # PHP 7.3
 if [ -e "/opt/homebrew/opt/php@7.3/bin" ]; then
@@ -54,9 +59,7 @@ if [ -d "/sbin" ]; then
     export PATH="/sbin:$PATH"
 fi
 
-if [ -f $HOME/.zshrc ]; then
-    source $HOME/.zshrc
-fi
+! (( CONFIG_RC_SOURCED == 1 )) && [ -f "$HOME/.zshrc" ] && echo ".zprofile is loading .zshrc" && . "$HOME/.zshrc"
 
 if [ -f $HOME/.cfg_scripts/system/report.sh ]; then
     source $HOME/.cfg_scripts/system/report.sh;

@@ -21,5 +21,5 @@
   "[yaml]": {
     "editor.autoIndent": "advanced",
   },
-  "redhat.telemetry.enabled": false
+  "redhat.telemetry.enabled": false,
 }
