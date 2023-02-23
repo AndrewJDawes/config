@@ -22,4 +22,7 @@
     "editor.autoIndent": "advanced",
   },
   "redhat.telemetry.enabled": false,
+  "[python]": {
+    "editor.formatOnType": false
+  },
 }
