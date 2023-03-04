@@ -31,3 +31,7 @@ fi
 if [ -d "$HOME/.cmp/aliases" ]; then
    source "$HOME/.cmp/aliases";
 fi
+# Customize bash prompt
+if [ -f "$HOME/.bash_prompt" ]; then
+   source "$HOME/.bash_prompt";
+fi
