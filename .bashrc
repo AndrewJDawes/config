@@ -3,6 +3,8 @@ echo ".bashrc is loading"
 ! (( CONFIG_PROFILE_SOURCED == 1 )) && [ -f "$HOME/.profile" ] && echo ".bashrc is loading .profile" && . "$HOME/.profile"
 # Alias for managing dotfiles config
 alias config='git --git-dir=$HOME/.cfg --work-tree=$HOME'
+# vi mode for command line editing
+set -o vi
 # Homebrew
 if [ -e /opt/homebrew/bin/brew ]; then
     eval $(/opt/homebrew/bin/brew shellenv)
