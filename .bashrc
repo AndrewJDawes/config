@@ -1,6 +1,4 @@
 export CONFIG_RC_SOURCED=1
-echo ".bashrc is loading"
-! (( CONFIG_PROFILE_SOURCED == 1 )) && [ -f "$HOME/.profile" ] && echo ".bashrc is loading .profile" && . "$HOME/.profile"
 # Alias for managing dotfiles config
 alias config='git --git-dir=$HOME/.cfg --work-tree=$HOME'
 # vi mode for command line editing
