@@ -15,7 +15,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[sql]": {
-    "editor.defaultFormatter": "ms-mssql.mssql"
+    "editor.defaultFormatter": "cweijan.vscode-mysql-client2"
   },
   "prettier.tabWidth": 4,
   "[yaml]": {
@@ -30,4 +30,7 @@
   },
   "window.zoomLevel": -1,
   "security.workspace.trust.untrustedFiles": "open",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
 }
