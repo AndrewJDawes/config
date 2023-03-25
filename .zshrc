@@ -1,8 +1,8 @@
 export CONFIG_RC_SOURCED=1
-echo ".zshrc is loading"
-! (( CONFIG_PROFILE_SOURCED == 1 )) && [ -f "$HOME/.zprofile" ] && echo ".zshrc is loading .zprofile" && . "$HOME/.zprofile"
 # Alias for managing dotfiles config
 alias config='git --git-dir=$HOME/.cfg --work-tree=$HOME'
+# vi mode for command line editing
+set -o vi
 # Homebrew
 if [ -e /opt/homebrew/bin/brew ]; then
     eval $(/opt/homebrew/bin/brew shellenv)

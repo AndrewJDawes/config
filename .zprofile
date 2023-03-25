@@ -59,7 +59,7 @@ if [ -d "/sbin" ]; then
     export PATH="/sbin:$PATH"
 fi
 
-! (( CONFIG_RC_SOURCED == 1 )) && [ -f "$HOME/.zshrc" ] && echo ".zprofile is loading .zshrc" && . "$HOME/.zshrc"
+! (( CONFIG_RC_SOURCED == 1 )) && [ -f "$HOME/.zshrc" ] && . "$HOME/.zshrc"
 
 if [ -f $HOME/.cfg_scripts/system/report.sh ]; then
     source $HOME/.cfg_scripts/system/report.sh;

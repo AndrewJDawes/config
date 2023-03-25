@@ -15,7 +15,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[sql]": {
-    "editor.defaultFormatter": "ms-mssql.mssql"
+    "editor.defaultFormatter": "cweijan.vscode-mysql-client2"
   },
   "prettier.tabWidth": 4,
   "[yaml]": {
@@ -24,5 +24,13 @@
   "redhat.telemetry.enabled": false,
   "[python]": {
     "editor.formatOnType": false
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "window.zoomLevel": -1,
+  "security.workspace.trust.untrustedFiles": "open",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
 }

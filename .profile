@@ -59,7 +59,7 @@ if [ -d "/sbin" ]; then
     export PATH="/sbin:$PATH"
 fi
 
-! (( CONFIG_RC_SOURCED == 1 )) && [ -f "$HOME/.bashrc" ] && echo ".profile is loading .bashrc" && . "$HOME/.bashrc"
+! (( CONFIG_RC_SOURCED == 1 )) && [ -f "$HOME/.bashrc" ] && . "$HOME/.bashrc"
 
 if [ -f $HOME/.cfg_scripts/system/report.sh ]; then
     source $HOME/.cfg_scripts/system/report.sh;
