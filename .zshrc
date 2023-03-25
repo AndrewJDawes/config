@@ -31,3 +31,7 @@ fi
 if [ -d "$HOME/.cmp/aliases" ]; then
    source "$HOME/.cmp/aliases";
 fi
+# Git auto-completion
+if [ -f "$HOME/.git-completion.bash" ]; then
+   source "$HOME/.git-completion.bash";
+fi

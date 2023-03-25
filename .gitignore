@@ -8,6 +8,8 @@
 # githooks
 !/.cfg_scripts/
 !/.cfg_scripts/**
+# git completion
+!/.git-completion.bash
 # VSCode - extensions
 !/.cfg_vscode_extensions
 # VSCode - MacOS
