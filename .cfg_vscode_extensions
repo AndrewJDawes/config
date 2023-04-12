@@ -29,7 +29,7 @@ ms-python.vscode-pylance@2023.2.30
 ms-toolsai.jupyter@2023.1.2010391206
 ms-toolsai.jupyter-keymap@1.1.0
 ms-toolsai.jupyter-renderers@1.0.15
-ms-toolsai.vscode-jupyter-cell-tags@0.1.6
+ms-toolsai.vscode-jupyter-cell-tags@0.1.8
 ms-toolsai.vscode-jupyter-slideshow@0.1.5
 ms-vscode-remote.remote-containers@0.275.0
 ms-vscode-remote.remote-ssh@0.98.0
