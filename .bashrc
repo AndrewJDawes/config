@@ -35,3 +35,7 @@ fi
 if [ -f "$HOME/.bash_prompt" ]; then
    source "$HOME/.bash_prompt";
 fi
+# Git auto-completion
+if [ -f "$HOME/.git-completion.bash" ]; then
+   source "$HOME/.git-completion.bash";
+fi
