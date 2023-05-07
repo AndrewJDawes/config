@@ -6,7 +6,7 @@
   "editor.formatOnType": true,
   "editor.formatOnPaste": false,
   "[typescript]": {
-    "editor.defaultFormatter": "svipas.prettier-plus"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
