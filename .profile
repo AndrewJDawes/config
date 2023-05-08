@@ -4,7 +4,7 @@ if [ -d "$HOME/bin" ] ; then
     export PATH="$HOME/bin:$PATH"
 fi
 # Use pyenv to manage python versions if installed
-if command -v pyenv 1>/dev/null 2>&1; then
+if [ -d "$HOME/.pyenv" ]; then
     export PYENV_ROOT="$HOME/.pyenv"
     export PATH="$PYENV_ROOT/bin:$PATH"
 fi
@@ -44,7 +44,7 @@ if [ -d "$HOME/"'.magento-cloud/bin' ]; then
 fi
 # Add macOS XAMPP executables to path if exist
 if [ -d '/Applications/XAMPP/bin' ]; then
-    export PATH="/Applications/XAMPP/bin":"$PATH";
+    export PATH="/usr/bin":"/Applications/XAMPP/bin":"$PATH";
 fi
 # Add Linux XAMPP executables to path if exist
 if [ -d '/opt/lampp/bin' ]; then
