@@ -5,9 +5,9 @@ bmewburn.vscode-intelephense-client@1.9.5
 claudiosanches.woocommerce@1.1.0
 cweijan.vscode-mysql-client2@6.2.1
 dbaeumer.vscode-eslint@2.2.6
-eamodio.gitlens@13.3.2
+eamodio.gitlens@13.5.0
 EditorConfig.EditorConfig@0.16.4
-esbenp.prettier-vscode@9.10.4
+esbenp.prettier-vscode@9.12.0
 FallenMax.mithril-emmet@0.7.7
 foxundermoon.shell-format@7.2.2
 GarrettJohnson.language-lava@1.1.17
@@ -37,7 +37,7 @@ ms-vscode-remote.remote-ssh-edit@0.84.0
 ms-vscode-remote.remote-wsl@0.75.3
 ms-vscode-remote.vscode-remote-extensionpack@0.24.0
 ms-vscode.remote-explorer@0.4.0
-ms-vscode.remote-server@1.0.0
+ms-vscode.remote-server@1.1.0
 Natizyskunk.sftp@1.16.1
 neilbrayfield.php-docblocker@2.7.0
 neilding.language-liquid@0.1.1
