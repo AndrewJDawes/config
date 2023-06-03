@@ -50,7 +50,7 @@
     "markdown": true,
     "scminput": false
   },
-  "git.confirmSync": false
+  "git.confirmSync": false,
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   }
