@@ -43,7 +43,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.inlineSuggest.enabled": true,
-  "window.zoomLevel": -1,
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
@@ -52,5 +51,6 @@
   },
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-  }
+  },
+  "window.zoomLevel": -1
 }
