@@ -42,8 +42,10 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
   "editor.inlineSuggest.enabled": true,
-  "window.zoomLevel": -1,
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
@@ -53,5 +55,6 @@
   "git.confirmSync": false,
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-  }
+  },
+  "window.zoomLevel": -1
 }
