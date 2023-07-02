@@ -20,7 +20,7 @@
   "prettier.tabWidth": 4,
   "prettier.useTabs": true,
   "[yaml]": {
-    "editor.autoIndent": "advanced",
+    "editor.autoIndent": "advanced"
   },
   "redhat.telemetry.enabled": false,
   "[python]": {
@@ -33,7 +33,6 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "window.zoomLevel": -1,
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -43,11 +42,19 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
     "markdown": true,
     "scminput": false
-  }
+  },
+  "git.confirmSync": false,
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "window.zoomLevel": -1
 }
