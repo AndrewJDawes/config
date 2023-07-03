@@ -40,5 +40,9 @@ if [ -f "$HOME/.git-completion.bash" ]; then
    source "$HOME/.git-completion.bash";
 fi
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+# Load rbenv automatically by appending
+# the following to ~/.bash_profile:
+if $(command -v rbenv >/dev/null 2>&1); then
+    eval "$(rbenv init - bash)"
+fi
+
