@@ -15,11 +15,12 @@ esbenp.prettier-vscode@9.13.0
 FallenMax.mithril-emmet@0.7.7
 foxundermoon.shell-format@7.2.5
 GarrettJohnson.language-lava@1.1.18
-GitHub.codespaces@1.14.9
+GitHub.codespaces@1.14.10
 GitHub.copilot@1.89.156
 GitHub.copilot-labs@0.14.884
 github.vscode-github-actions@0.25.7
 GitHub.vscode-pull-request-github@0.64.0
+janisdd.vscode-edit-csv@0.7.6
 jerriepelser.copy-markdown-as-html@1.1.0
 JoeBerria.statusbarerror@0.4.0
 kenhowardpdx.vscode-gist@3.0.3
