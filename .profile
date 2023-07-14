@@ -15,20 +15,25 @@ if [ -d "$HOME/.nvm" ]; then
     export NVM_DIR="$HOME/.nvm"
 fi
 # Add Homebrew PHPs as option
-# PHP 7.3
-if [ -e "/opt/homebrew/opt/php@7.3/bin" ]; then
-    export PATH="/opt/homebrew/opt/php@7.3/bin:$PATH"
-    export PATH="/opt/homebrew/opt/php@7.3/sbin:$PATH"
+# PHP 8.1
+if [ -e "/opt/homebrew/opt/php@8.1/bin" ]; then
+    export PATH="/opt/homebrew/opt/php@8.1/bin:$PATH"
+    export PATH="/opt/homebrew/opt/php@8.1/sbin:$PATH"
+fi
+# PHP 8.0
+if [ -e "/opt/homebrew/opt/php@8.0/bin" ]; then
+    export PATH="/opt/homebrew/opt/php@8.0/bin:$PATH"
+    export PATH="/opt/homebrew/opt/php@8.0/sbin:$PATH"
 fi
 # PHP 7.4
 if [ -e "/opt/homebrew/opt/php@7.4/bin" ]; then
     export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"
     export PATH="/opt/homebrew/opt/php@7.4/sbin:$PATH"
 fi
-# PHP 8.0
-if [ -e "/opt/homebrew/opt/php@8.0/bin" ]; then
-    export PATH="/opt/homebrew/opt/php@8.0/bin:$PATH"
-    export PATH="/opt/homebrew/opt/php@8.0/sbin:$PATH"
+# PHP 7.3
+if [ -e "/opt/homebrew/opt/php@7.3/bin" ]; then
+    export PATH="/opt/homebrew/opt/php@7.3/bin:$PATH"
+    export PATH="/opt/homebrew/opt/php@7.3/sbin:$PATH"
 fi
 # Add composer to path if exists
 if [ -d "$HOME/.composer/vendor/bin" ]; then
