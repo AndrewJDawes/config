@@ -5,6 +5,10 @@
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "editor.formatOnPaste": false,
+  "editor.renderWhitespace": "all",
+  "code-eol.newlineCharacter": "¬",
+  "code-eol.returnCharacter" : "¤",
+  "code-eol.crlfCharacter"   : "¤¬",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -56,5 +60,5 @@
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
-  "window.zoomLevel": -1
+  "window.zoomLevel": -2
 }
