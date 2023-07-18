@@ -44,5 +44,7 @@ fi
 # the following to ~/.bash_profile:
 if $(command -v rbenv >/dev/null 2>&1); then
     eval "$(rbenv init - bash)"
+elif [ -f "$HOME/.rbenv/bin/rbenv" ]; then
+    eval "$("$HOME/.rbenv/bin/rbenv" init - bash)"
 fi
 
