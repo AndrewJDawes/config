@@ -8,8 +8,8 @@
   "editor.formatOnPaste": false,
   "editor.renderWhitespace": "all",
   "code-eol.newlineCharacter": "¬",
-  "code-eol.returnCharacter" : "¤",
-  "code-eol.crlfCharacter"   : "¤¬",
+  "code-eol.returnCharacter": "¤",
+  "code-eol.crlfCharacter": "¤¬",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -61,7 +61,6 @@
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
-  "window.zoomLevel": -2,
   "[ruby]": {
     "editor.defaultFormatter": "svipas.prettier-plus",
     "editor.formatOnSave": true,
@@ -93,11 +92,9 @@
   },
   "rubyLsp.enableExperimentalFeatures": true,
   "terminal.integrated.profiles.osx": {
-
     "bash": {
       "path": "bash",
-      "args": [
-      ],
+      "args": [],
       "icon": "terminal-bash"
     },
     "zsh": {
@@ -120,5 +117,6 @@
       "path": "pwsh",
       "icon": "terminal-powershell"
     }
-  }
+  },
+  "window.zoomLevel": -2
 }
