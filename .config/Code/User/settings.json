@@ -117,5 +117,6 @@
       "path": "pwsh",
       "icon": "terminal-powershell"
     }
-  }
+  },
+  "window.zoomLevel": -2
 }
