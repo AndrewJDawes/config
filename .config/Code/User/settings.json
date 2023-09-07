@@ -118,5 +118,8 @@
       "icon": "terminal-powershell"
     }
   },
-  "window.zoomLevel": -2
+  "files.exclude": {
+    "**/.git": false
+  },
+  "window.zoomLevel": -1
 }
