@@ -119,7 +119,7 @@
     }
   },
   "files.exclude": {
-    "**/.git": false
   },
+  "markdown.extension.toc.updateOnSave": false,
   "window.zoomLevel": -1
 }
