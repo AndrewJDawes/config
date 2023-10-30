@@ -1,125 +1,119 @@
 {
-  "terminal.integrated.shellArgs.osx": [],
-  "workbench.colorTheme": "Default Dark+",
-  "workbench.startupEditor": "none",
-  "git.autofetch": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnType": true,
-  "editor.formatOnPaste": false,
-  "editor.renderWhitespace": "all",
-  "code-eol.newlineCharacter": "¬",
-  "code-eol.returnCharacter": "¤",
-  "code-eol.crlfCharacter": "¤¬",
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[sql]": {
-    "editor.defaultFormatter": "cweijan.vscode-mysql-client2"
-  },
-  "prettier.tabWidth": 4,
-  "prettier.useTabs": true,
-  "[yaml]": {
-    "editor.autoIndent": "advanced"
-  },
-  "redhat.telemetry.enabled": false,
-  "[python]": {
-    "editor.formatOnType": false
-  },
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-  "security.workspace.trust.untrustedFiles": "open",
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[xml]": {
-    "editor.defaultFormatter": "DotJoshJohnson.xml"
-  },
-  "editor.inlineSuggest.enabled": true,
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": true,
-    "scminput": false
-  },
-  "git.confirmSync": false,
-  "[dockerfile]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-  },
-  "[ruby]": {
-    "editor.defaultFormatter": "svipas.prettier-plus",
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "editor.tabSize": 2,
-    "editor.insertSpaces": true,
-    "editor.semanticHighlighting.enabled": true
-  },
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-  "editor.rulers": [
-    120
-  ],
-  "rubyLsp.enabledFeatures": {
-    "codeActions": true,
-    "diagnostics": true,
-    "documentHighlights": true,
-    "documentLink": true,
-    "documentSymbols": true,
-    "foldingRanges": true,
-    "formatting": true,
-    "hover": true,
-    "inlayHint": true,
-    "onTypeFormatting": true,
-    "selectionRanges": true,
-    "semanticHighlighting": true,
-    "completion": true,
-    "codeLens": false
-  },
-  "rubyLsp.enableExperimentalFeatures": true,
-  "terminal.integrated.profiles.osx": {
-    "bash": {
-      "path": "bash",
-      "args": [],
-      "icon": "terminal-bash"
-    },
-    "zsh": {
-      "path": "zsh",
-      "args": [
-        "-l"
-      ]
-    },
-    "fish": {
-      "path": "fish",
-      "args": [
-        "-l"
-      ]
-    },
-    "tmux": {
-      "path": "tmux",
-      "icon": "terminal-tmux"
-    },
-    "pwsh": {
-      "path": "pwsh",
-      "icon": "terminal-powershell"
-    }
-  },
-  "files.exclude": {
-  },
-  "markdown.extension.toc.updateOnSave": false,
-  "window.zoomLevel": -1
+	"terminal.integrated.shellArgs.osx": [],
+	"workbench.colorTheme": "Default Dark+",
+	"workbench.startupEditor": "none",
+	"git.autofetch": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"editor.formatOnPaste": false,
+	"editor.renderWhitespace": "all",
+	"code-eol.newlineCharacter": "¬",
+	"code-eol.returnCharacter": "¤",
+	"code-eol.crlfCharacter": "¤¬",
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[sql]": {
+		"editor.defaultFormatter": "cweijan.vscode-mysql-client2"
+	},
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"[yaml]": {
+		"editor.autoIndent": "advanced"
+	},
+	"redhat.telemetry.enabled": false,
+	"[python]": {
+		"editor.formatOnType": false
+	},
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	},
+	"security.workspace.trust.untrustedFiles": "open",
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[xml]": {
+		"editor.defaultFormatter": "DotJoshJohnson.xml"
+	},
+	"editor.inlineSuggest.enabled": true,
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": false,
+		"markdown": true,
+		"scminput": false
+	},
+	"git.confirmSync": false,
+	"[dockerfile]": {
+		"editor.defaultFormatter": "ms-azuretools.vscode-docker"
+	},
+	"[ruby]": {
+		"editor.defaultFormatter": "svipas.prettier-plus",
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.tabSize": 2,
+		"editor.insertSpaces": true,
+		"editor.semanticHighlighting.enabled": true
+	},
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"editor.rulers": [120],
+	"rubyLsp.enabledFeatures": {
+		"codeActions": true,
+		"diagnostics": true,
+		"documentHighlights": true,
+		"documentLink": true,
+		"documentSymbols": true,
+		"foldingRanges": true,
+		"formatting": true,
+		"hover": true,
+		"inlayHint": true,
+		"onTypeFormatting": true,
+		"selectionRanges": true,
+		"semanticHighlighting": true,
+		"completion": true,
+		"codeLens": false
+	},
+	"rubyLsp.enableExperimentalFeatures": true,
+	"terminal.integrated.profiles.osx": {
+		"bash": {
+			"path": "bash",
+			"args": [],
+			"icon": "terminal-bash"
+		},
+		"zsh": {
+			"path": "zsh",
+			"args": ["-l"]
+		},
+		"fish": {
+			"path": "fish",
+			"args": ["-l"]
+		},
+		"tmux": {
+			"path": "tmux",
+			"icon": "terminal-tmux"
+		},
+		"pwsh": {
+			"path": "pwsh",
+			"icon": "terminal-powershell"
+		}
+	},
+	"files.exclude": {},
+	"markdown.extension.toc.updateOnSave": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"window.zoomLevel": -1
 }
