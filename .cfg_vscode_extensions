@@ -9,7 +9,7 @@ cweijan.vscode-mysql-client2@6.2.1
 dbaeumer.vscode-eslint@2.2.6
 DigitalBrainstem.javascript-ejs-support@1.3.3
 DotJoshJohnson.xml@2.5.1
-eamodio.gitlens@14.4.1
+eamodio.gitlens@14.2.1
 EditorConfig.EditorConfig@0.16.4
 esbenp.prettier-vscode@9.19.0
 FallenMax.mithril-emmet@0.7.7
@@ -57,15 +57,14 @@ neilbrayfield.php-docblocker@2.7.0
 neilding.language-liquid@0.1.1
 octref.vetur@0.37.3
 rebornix.ruby@0.28.1
-redhat.ansible@2.8.108
 redhat.vscode-yaml@1.14.0
 ritwickdey.LiveServer@5.7.9
 rogalmic.bash-debug@0.3.9
-runem.lit-plugin@1.4.0
+runem.lit-plugin@1.3.0
 SanderRonde.phpstan-vscode@2.2.25
 Shopify.ruby-lsp@0.5.5
 Shopify.theme-check-vscode@1.9.5
-sissel.shopify-liquid@4.0.0
+sissel.shopify-liquid@3.2.2
 stylelint.vscode-stylelint@1.2.4
 svipas.prettier-plus@4.2.2
 timonwong.shellcheck@0.29.4
