@@ -121,5 +121,6 @@
   "files.exclude": {
     "**/.git": false
   },
-  "window.zoomLevel": -1
+  "totalTypeScript.hideAllTips": true,
+  "totalTypeScript.hideBasicTips": true
 }
