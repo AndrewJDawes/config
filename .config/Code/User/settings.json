@@ -165,7 +165,7 @@
   "todo-tree.general.tagGroups": {
     "TODO": [
         "TODO",
-        "@todo",
+        "@todo"
     ]
   },
   "todo-tree.general.tags": [
@@ -181,6 +181,9 @@
   ],
   "todo-tree.tree.expanded": true,
   "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
-  "todo-tree.regex.enableMultiLine": true,
-  "todo-tree.regex.regex":"(//|/*|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
+  "todo-tree.regex.regex": "(//|/*|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
+  "todo-tree.filtering.excludeGlobs": [
+    "**/*.json",
+    "**/.devcontainer/**"
+  ]
 }
