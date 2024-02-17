@@ -122,5 +122,6 @@
     "**/.git": false
   },
   "totalTypeScript.hideAllTips": true,
-  "totalTypeScript.hideBasicTips": true
+  "totalTypeScript.hideBasicTips": true,
+  "gitlens.views.commitDetails.files.layout": "tree"
 }
