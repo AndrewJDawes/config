@@ -115,5 +115,7 @@
 	"files.exclude": {},
 	"markdown.extension.toc.updateOnSave": false,
 	"liveServer.settings.donotShowInfoMsg": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"[github-actions-workflow]": {},
 	"window.zoomLevel": -1
 }
