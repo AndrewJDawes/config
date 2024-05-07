@@ -190,5 +190,18 @@
   "markdown.extension.toc.updateOnSave": false,
 	"liveServer.settings.donotShowInfoMsg": true,
 	"diffEditor.ignoreTrimWhitespace": false,
-	"[github-actions-workflow]": {},
+  "[github-actions-workflow]": {},
+  "[ansible]": {
+    "editor.detectIndentation": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.quickSuggestions": {
+      "comments": true,
+      "other": true,
+      "strings": true
+    },
+    "editor.autoIndent": "advanced"
+  },
+  "editor.minimap.enabled": false,
+  "remote.SSH.enableAgentForwarding": false
 }
