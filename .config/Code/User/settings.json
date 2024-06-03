@@ -25,7 +25,8 @@
   "prettier.tabWidth": 4,
   "prettier.useTabs": true,
   "[yaml]": {
-    "editor.autoIndent": "advanced"
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "redhat.telemetry.enabled": false,
   "[python]": {
@@ -165,8 +166,8 @@
   },
   "todo-tree.general.tagGroups": {
     "TODO": [
-        "TODO",
-        "@todo"
+      "TODO",
+      "@todo"
     ]
   },
   "todo-tree.general.tags": [
@@ -186,5 +187,6 @@
   "todo-tree.filtering.excludeGlobs": [
     "**/*.json",
     "**/.devcontainer/**"
-  ]
+  ],
+  "github.copilot.editor.enableAutoCompletions": true
 }
