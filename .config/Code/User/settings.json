@@ -188,5 +188,6 @@
     "**/*.json",
     "**/.devcontainer/**"
   ],
-  "github.copilot.editor.enableAutoCompletions": true
+  "github.copilot.editor.enableAutoCompletions": true,
+  "git.enableSmartCommit": true
 }
