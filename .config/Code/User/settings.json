@@ -189,5 +189,6 @@
     "**/.devcontainer/**"
   ],
   "github.copilot.editor.enableAutoCompletions": true,
-  "git.enableSmartCommit": true
+  "git.enableSmartCommit": true,
+  "database-client.autoSync": true
 }
