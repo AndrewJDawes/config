@@ -25,7 +25,8 @@
   "prettier.tabWidth": 4,
   "prettier.useTabs": true,
   "[yaml]": {
-    "editor.autoIndent": "advanced"
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "redhat.telemetry.enabled": false,
   "[python]": {
@@ -123,6 +124,7 @@
   },
   "totalTypeScript.hideAllTips": true,
   "totalTypeScript.hideBasicTips": true,
+  "gitlens.views.commitDetails.files.layout": "tree",
   "todo-tree.highlights.defaultHighlight": {
     "icon": "alert",
     "type": "whole-line",
@@ -149,8 +151,8 @@
   },
   "todo-tree.general.tagGroups": {
     "TODO": [
-        "TODO",
-        "@todo"
+      "TODO",
+      "@todo"
     ]
   },
   "todo-tree.general.tags": [
@@ -171,5 +173,8 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "files.associations": {
     "*.liquid": "liquid"
-  }
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "git.enableSmartCommit": true,
+  "database-client.autoSync": true
 }
